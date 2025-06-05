@@ -1,0 +1,18 @@
+$blue:rgba(111, 111, 228, 0.55);
+$red:rgba(232, 76, 76, 0.735);
+$orange:rgba(228, 115, 15, 0.861);
+$purple:rgba(228, 99, 228, 0.744);
+
+.para1{
+    background-color: $red;
+    color:$orange
+}
+.para2{
+    background-color: $blue;
+}
+.para3{
+    background-color: $orange;
+}
+.para4{
+    background-color: $purple;
+}

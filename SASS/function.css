@@ -1,0 +1,7 @@
+.bright-text {
+  color: colour(rgb(108, 12, 12), 30%);
+}
+
+.dark-text {
+  color: colour(rgb(108, 12, 12), 1%);
+}/*# sourceMappingURL=function.css.map */

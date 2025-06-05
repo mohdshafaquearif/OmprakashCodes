@@ -1,0 +1,8 @@
+$width:200px;
+$background_color:rgb(225, 225, 64);
+.div{
+    height:$width%3;
+    background-color: $background_color;
+    width:$width;
+
+}

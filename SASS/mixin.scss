@@ -1,0 +1,29 @@
+@mixin feature{
+    background-color: rgba(73, 230, 73, 0.644);
+    font-family: cursive;
+    color:black;
+    padding:15px;
+    border:2px solid black;
+    font-size: 14px;
+    cursor:pointer;
+}
+.btn{
+    @include feature();
+}
+.btn2{
+     @include feature();
+     border-radius: 50px;
+     padding-left:30px;
+     padding-right: 30px;
+}
+.btn3{
+    @include feature();
+    border-radius: 10px;
+    border: 5px solid blue;
+}
+.btn4{
+     @include feature();
+}
+.btn5{
+     @include feature();
+}
