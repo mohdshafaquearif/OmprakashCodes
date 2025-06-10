@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Person{
+            constructor(name,age,country){
+                this.name=name;
+                this.age=age;
+                this.country=country;
+            }
+            greet(){
+                console.log(`Hi , I'm ${this.name} and I'm ${this.age}years old and i'm from ${this.country}`)
+            }
+        }
+        const p1=new Person("Omprakash",35,"India");
+        p1.greet();
+        const p2=new Person("Arif",40,"Columbia");
+        p2.greet();
+
+    </script>
+</body>
+</html>
