@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+             height: 300px;
+             width:300px;
+             background-color: purple;
+             margin:20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem amet placeat architecto mollitia optio fugit facilis eos sint aliquid repellat.</div>
+    <script>
+        document.getElementById("box").addEventListener("mouseover",function(){
+            this.style.background="orange";
+            
+        });
+        document.getElementById("box").addEventListener("mouseout",function(){
+            this.style.background="green";
+            
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click me !</button>
+    <script>
+        document.getElementById("btn").addEventListener("click",function(){
+            alert("Hello you clicked the button");
+            console.log("event type : "+event.type);
+            console.log("Element Click :"+event.target.tagName)
+            console.log("mouse position:X: "+event.clientX+"mouse position:Y: "+event.clientY);
+            console.log("Timestamp: "+event.timeStamp);
+        })
+    </script>
+</body>
+</html>

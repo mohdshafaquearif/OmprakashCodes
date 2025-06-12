@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       class Addition{
+        add(a,b){
+            return a+b;
+        }
+       }
+       class AdvanceAddition extends Addition{
+        add(a,b,c){
+            return a+b+c;
+        }
+       }
+       const base=new Addition();
+       console.log(base.add(10,15));
+
+       const advance=new AdvanceAddition();
+       console.log(advance.add(10,20,30));
+    </script>
+</body>
+</html>
